@@ -10,5 +10,18 @@ function Sumar(){
 }
 
 function Restar(){
-    alert('Estoy restando mi sueldo .. ')
+    let Nr1 = Number(document.getElementById("nr1").value);
+    let Nr2 = Number(document.getElementById("nr2").value);
+    let restar = Nr1 - Nr2;
+    document.getElementById('Resultado').value = restar;
+}
+
+function Multi(){
+    let Nr1= parseInt(document.getElementById("nr1").value);
+    let Nr2= parseInt(document.getElementById("nr1").value);
+    let multiplicar = Nr1*Nr2;
+    document.getElementById('Resultado').value = multiplicar;
+
+
+
 }
